@@ -17,7 +17,7 @@ import CoreServices
 
 public extension URLSession {
 
-    public func dataTaskWithHTTPFormRequest(_ request: HTTPFormRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+    func dataTaskWithHTTPFormRequest(_ request: HTTPFormRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
         return self.dataTask(with: request.urlRequest(), completionHandler: completionHandler)
     }
 }

@@ -313,7 +313,7 @@
 					};
 					E8DA8E4F1E2456CB00BB3F21 = {
 						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -324,6 +324,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E8DA8E461E2456CB00BB3F21;
 			productRefGroup = E8DA8E511E2456CB00BB3F21 /* Products */;
@@ -752,7 +753,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -776,7 +777,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.empiricalmagic.HTTPFormRequest;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
