@@ -17,7 +17,7 @@
                BlueprintIdentifier = "E844A91020F49C6B00D0B386"
                BuildableName = "HTTPFormEncoder.framework"
                BlueprintName = "HTTPFormEncoder"
-               ReferencedContainer = "container:HTTPFormEncoder.xcodeproj">
+               ReferencedContainer = "container:../../../../Checkouts/HTTPFormRequest/Projects/HTTPFormEncoder/HTTPFormEncoder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "E844A91820F49C6B00D0B386"
                BuildableName = "HTTPFormEncoderTests.xctest"
                BlueprintName = "HTTPFormEncoderTests"
-               ReferencedContainer = "container:HTTPFormEncoder.xcodeproj">
+               ReferencedContainer = "container:../../../../Checkouts/HTTPFormRequest/Projects/HTTPFormEncoder/HTTPFormEncoder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "E844A91020F49C6B00D0B386"
             BuildableName = "HTTPFormEncoder.framework"
             BlueprintName = "HTTPFormEncoder"
-            ReferencedContainer = "container:HTTPFormEncoder.xcodeproj">
+            ReferencedContainer = "container:../../../../Checkouts/HTTPFormRequest/Projects/HTTPFormEncoder/HTTPFormEncoder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,7 +67,7 @@
             BlueprintIdentifier = "E844A91020F49C6B00D0B386"
             BuildableName = "HTTPFormEncoder.framework"
             BlueprintName = "HTTPFormEncoder"
-            ReferencedContainer = "container:HTTPFormEncoder.xcodeproj">
+            ReferencedContainer = "container:../../../../Checkouts/HTTPFormRequest/Projects/HTTPFormEncoder/HTTPFormEncoder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -85,7 +85,7 @@
             BlueprintIdentifier = "E844A91020F49C6B00D0B386"
             BuildableName = "HTTPFormEncoder.framework"
             BlueprintName = "HTTPFormEncoder"
-            ReferencedContainer = "container:HTTPFormEncoder.xcodeproj">
+            ReferencedContainer = "container:../../../../Checkouts/HTTPFormRequest/Projects/HTTPFormEncoder/HTTPFormEncoder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
