@@ -16,6 +16,7 @@
 		E876ECE12087B3BC00E7A845 /* HTTPFormRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA8E5B1E2456E700BB3F21 /* HTTPFormRequest.swift */; };
 		E8DA8E551E2456CB00BB3F21 /* HTTPFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DA8E531E2456CB00BB3F21 /* HTTPFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DA8E5C1E2456E700BB3F21 /* HTTPFormRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA8E5B1E2456E700BB3F21 /* HTTPFormRequest.swift */; };
+		E8E37F0B2215FA7C00DF0BB4 /* HTTPFormEncoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E37F0A2215FA7C00DF0BB4 /* HTTPFormEncoder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E8DA8E531E2456CB00BB3F21 /* HTTPFormRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPFormRequest.h; sourceTree = "<group>"; };
 		E8DA8E541E2456CB00BB3F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8DA8E5B1E2456E700BB3F21 /* HTTPFormRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPFormRequest.swift; sourceTree = "<group>"; };
+		E8E37F0A2215FA7C00DF0BB4 /* HTTPFormEncoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPFormEncoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E37F0B2215FA7C00DF0BB4 /* HTTPFormEncoder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +120,7 @@
 		E844A8F420F4983C00D0B386 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E8E37F0A2215FA7C00DF0BB4 /* HTTPFormEncoder.framework */,
 				E844A92E20F4A2C100D0B386 /* HTTPFormEncoder.framework */,
 				E844A8F520F4983C00D0B386 /* libHTTPFormEncoder.a */,
 			);
@@ -331,9 +335,9 @@
 			projectRoot = "";
 			targets = (
 				E8DA8E4F1E2456CB00BB3F21 /* HTTPFormRequest-iOS */,
+				E8266B58208887E500B06B16 /* HTTPFormRequest-macOS */,
 				E876ECCB2087AFCC00E7A845 /* HTTPFormRequest-Library */,
 				E876ECD72087B3B500E7A845 /* HTTPFormRequest-Library-macOS */,
-				E8266B58208887E500B06B16 /* HTTPFormRequest-macOS */,
 				E8266B60208887E500B06B16 /* HTTPFormRequest-macOSTests */,
 			);
 		};
