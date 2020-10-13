@@ -34,96 +34,96 @@ struct HTTPFormUnkeyedEncodingContainer: UnkeyedEncodingContainer {
     }
     
     mutating func encode(_ value: Bool) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: String) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Double) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Float) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Int) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Int8) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Int16) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Int32) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Int64) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: UInt) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: UInt8) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: UInt16) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: UInt32) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: UInt64) throws {
-        defer { self.count += 1 }
-        self.storage.append( encoder.box( value ) )
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        defer { count += 1 }
+        storage.append(encoder.box(value))
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode<T>(_ value: T) throws where T : Encodable {
-        defer { self.count += 1 }
+        defer { count += 1 }
         //self.encoder.parameters[self.containerName] = try encoder.box( value )
         //print("VLAUE: \(value)")
         //fatalError("NOT IMP")
         
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((self.containerName, try encoder.box_(value)))
         
         //self.encoder.parameters[self.containerName] = try encoder.box_( value )
     }
@@ -139,6 +139,4 @@ struct HTTPFormUnkeyedEncodingContainer: UnkeyedEncodingContainer {
     mutating func superEncoder() -> Encoder {
         fatalError("NOT IMP")
     }
-    
-    
 }

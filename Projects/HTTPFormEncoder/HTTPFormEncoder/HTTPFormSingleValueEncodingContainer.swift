@@ -25,87 +25,59 @@ struct HTTPFormSingleValueEncodingContainer: SingleValueEncodingContainer {
     }
     
     mutating func encode(_ value: Bool) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: String) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Double) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Float) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Int) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Int8) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Int16) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Int32) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: Int64) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: UInt) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: UInt8) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: UInt16) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: UInt32) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode(_ value: UInt64) throws {
-
-        
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
     }
     
     mutating func encode<T>(_ value: T) throws where T : Encodable {
@@ -114,7 +86,7 @@ struct HTTPFormSingleValueEncodingContainer: SingleValueEncodingContainer {
         //print("VLAUE: \(value)")
         //fatalError("NOT IMP")
         
-        self.encoder.parameters.append( ( self.containerName, try encoder.box_(value) ) )
+        encoder.parameters.append((containerName, try encoder.box_(value)))
         
         //self.encoder.parameters[self.containerName] = try encoder.box_( value )
     }
