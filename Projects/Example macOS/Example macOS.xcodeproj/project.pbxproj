@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23BA7F242535998A00D6A713 /* HTTPFormEncoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BA7F232535998A00D6A713 /* HTTPFormEncoder.framework */; };
+		23BA7F252535998A00D6A713 /* HTTPFormEncoder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23BA7F232535998A00D6A713 /* HTTPFormEncoder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E8266BAE2088D38300B06B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8266BAD2088D38300B06B16 /* AppDelegate.swift */; };
 		E8266BB02088D38300B06B16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8266BAF2088D38300B06B16 /* ViewController.swift */; };
 		E8266BB22088D38400B06B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8266BB12088D38400B06B16 /* Assets.xcassets */; };
@@ -23,6 +25,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				E8266BC72088D41000B06B16 /* HTTPFormRequest.framework in Embed Frameworks */,
+				23BA7F252535998A00D6A713 /* HTTPFormEncoder.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		23BA7F232535998A00D6A713 /* HTTPFormEncoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPFormEncoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8266BAA2088D38300B06B16 /* Example macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8266BAD2088D38300B06B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8266BAF2088D38300B06B16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8266BC62088D40500B06B16 /* HTTPFormRequest.framework in Frameworks */,
+				23BA7F242535998A00D6A713 /* HTTPFormEncoder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +92,7 @@
 		E8266BC42088D40500B06B16 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23BA7F232535998A00D6A713 /* HTTPFormEncoder.framework */,
 				E8266BC52088D40500B06B16 /* HTTPFormRequest.framework */,
 			);
 			name = Frameworks;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23BA7F27253599D100D6A713 /* HTTPFormEncoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BA7F26253599D100D6A713 /* HTTPFormEncoder.framework */; };
 		E8266B62208887E500B06B16 /* HTTPFormRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8266B59208887E500B06B16 /* HTTPFormRequest.framework */; };
 		E8266B67208887E500B06B16 /* HTTPFormRequest_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8266B66208887E500B06B16 /* HTTPFormRequest_macOSTests.swift */; };
 		E8266B70208888C200B06B16 /* HTTPFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DA8E531E2456CB00BB3F21 /* HTTPFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		23BA7F26253599D100D6A713 /* HTTPFormEncoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPFormEncoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8266B59208887E500B06B16 /* HTTPFormRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTTPFormRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8266B5C208887E500B06B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8266B61208887E500B06B16 /* HTTPFormRequest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTPFormRequest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BA7F27253599D100D6A713 /* HTTPFormEncoder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,32 +120,17 @@
 		E844A8F420F4983C00D0B386 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23BA7F26253599D100D6A713 /* HTTPFormEncoder.framework */,
 				E844A92E20F4A2C100D0B386 /* HTTPFormEncoder.framework */,
 				E844A8F520F4983C00D0B386 /* libHTTPFormEncoder.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E876ECCD2087AFCC00E7A845 /* HTTPFormRequest-Library */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "HTTPFormRequest-Library";
-			sourceTree = "<group>";
-		};
-		E876ECD92087B3B500E7A845 /* HTTPFormRequest-Library-macOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "HTTPFormRequest-Library-macOS";
-			sourceTree = "<group>";
-		};
 		E8DA8E461E2456CB00BB3F21 = {
 			isa = PBXGroup;
 			children = (
 				E8DA8E521E2456CB00BB3F21 /* HTTPFormRequest */,
-				E876ECCD2087AFCC00E7A845 /* HTTPFormRequest-Library */,
-				E876ECD92087B3B500E7A845 /* HTTPFormRequest-Library-macOS */,
 				E8266B5A208887E500B06B16 /* HTTPFormRequest-macOS */,
 				E8266B65208887E500B06B16 /* HTTPFormRequest-macOSTests */,
 				E8DA8E511E2456CB00BB3F21 /* Products */,
@@ -296,7 +284,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Richard Stelling";
 				TargetAttributes = {
 					E8266B58208887E500B06B16 = {
@@ -541,7 +529,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYQF8Y7S2V;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -560,7 +548,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYQF8Y7S2V;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -631,6 +619,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -696,6 +685,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
