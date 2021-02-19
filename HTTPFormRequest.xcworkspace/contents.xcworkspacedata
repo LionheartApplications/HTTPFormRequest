@@ -2,15 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Projects/Example macOS/Example macOS.xcodeproj">
+      location = "group:Examples/Example iOS/Example iOS.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Projects/Example iOS/Example iOS.xcodeproj">
+      location = "group:Examples/Example macOS/Example macOS.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Projects/HTTPFormRequest/HTTPFormRequest.xcodeproj">
+      location = "group:Sources/HTTPFormEncoder/HTTPFormEncoder.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Projects/HTTPFormEncoder/HTTPFormEncoder.xcodeproj">
+      location = "group:Sources/HTTPFormRequest/HTTPFormRequest.xcodeproj">
    </FileRef>
 </Workspace>

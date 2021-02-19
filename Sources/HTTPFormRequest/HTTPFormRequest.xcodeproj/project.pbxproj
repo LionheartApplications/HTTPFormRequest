@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		23BA7F27253599D100D6A713 /* HTTPFormEncoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BA7F26253599D100D6A713 /* HTTPFormEncoder.framework */; };
-		E8266B62208887E500B06B16 /* HTTPFormRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8266B59208887E500B06B16 /* HTTPFormRequest.framework */; };
-		E8266B67208887E500B06B16 /* HTTPFormRequest_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8266B66208887E500B06B16 /* HTTPFormRequest_macOSTests.swift */; };
 		E8266B70208888C200B06B16 /* HTTPFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DA8E531E2456CB00BB3F21 /* HTTPFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8266BC82088D7CB00B06B16 /* HTTPFormRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA8E5B1E2456E700BB3F21 /* HTTPFormRequest.swift */; };
 		E844A92F20F4A2C100D0B386 /* HTTPFormEncoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E844A92E20F4A2C100D0B386 /* HTTPFormEncoder.framework */; };
@@ -18,16 +16,6 @@
 		E8DA8E551E2456CB00BB3F21 /* HTTPFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DA8E531E2456CB00BB3F21 /* HTTPFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DA8E5C1E2456E700BB3F21 /* HTTPFormRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA8E5B1E2456E700BB3F21 /* HTTPFormRequest.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E8266B63208887E500B06B16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E8DA8E471E2456CB00BB3F21 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E8266B58208887E500B06B16;
-			remoteInfo = "HTTPFormRequest-macOS";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E876ECCA2087AFCC00E7A845 /* CopyFiles */ = {
@@ -45,9 +33,6 @@
 		23BA7F26253599D100D6A713 /* HTTPFormEncoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPFormEncoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8266B59208887E500B06B16 /* HTTPFormRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTTPFormRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8266B5C208887E500B06B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8266B61208887E500B06B16 /* HTTPFormRequest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTPFormRequest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8266B66208887E500B06B16 /* HTTPFormRequest_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFormRequest_macOSTests.swift; sourceTree = "<group>"; };
-		E8266B68208887E500B06B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E844A8F520F4983C00D0B386 /* libHTTPFormEncoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHTTPFormEncoder.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E844A92E20F4A2C100D0B386 /* HTTPFormEncoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPFormEncoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E876ECCC2087AFCC00E7A845 /* libHTTPFormRequest-Library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libHTTPFormRequest-Library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,14 +49,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				23BA7F27253599D100D6A713 /* HTTPFormEncoder.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8266B5E208887E500B06B16 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8266B62208887E500B06B16 /* HTTPFormRequest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,15 +85,6 @@
 			path = "HTTPFormRequest-macOS";
 			sourceTree = "<group>";
 		};
-		E8266B65208887E500B06B16 /* HTTPFormRequest-macOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				E8266B66208887E500B06B16 /* HTTPFormRequest_macOSTests.swift */,
-				E8266B68208887E500B06B16 /* Info.plist */,
-			);
-			path = "HTTPFormRequest-macOSTests";
-			sourceTree = "<group>";
-		};
 		E844A8F420F4983C00D0B386 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +100,6 @@
 			children = (
 				E8DA8E521E2456CB00BB3F21 /* HTTPFormRequest */,
 				E8266B5A208887E500B06B16 /* HTTPFormRequest-macOS */,
-				E8266B65208887E500B06B16 /* HTTPFormRequest-macOSTests */,
 				E8DA8E511E2456CB00BB3F21 /* Products */,
 				E844A8F420F4983C00D0B386 /* Frameworks */,
 			);
@@ -145,7 +112,6 @@
 				E876ECCC2087AFCC00E7A845 /* libHTTPFormRequest-Library.a */,
 				E876ECD82087B3B500E7A845 /* libHTTPFormRequest-Library-macOS.a */,
 				E8266B59208887E500B06B16 /* HTTPFormRequest.framework */,
-				E8266B61208887E500B06B16 /* HTTPFormRequest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,24 +172,6 @@
 			productName = "HTTPFormRequest-macOS";
 			productReference = E8266B59208887E500B06B16 /* HTTPFormRequest.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		E8266B60208887E500B06B16 /* HTTPFormRequest-macOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8266B6D208887E500B06B16 /* Build configuration list for PBXNativeTarget "HTTPFormRequest-macOSTests" */;
-			buildPhases = (
-				E8266B5D208887E500B06B16 /* Sources */,
-				E8266B5E208887E500B06B16 /* Frameworks */,
-				E8266B5F208887E500B06B16 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E8266B64208887E500B06B16 /* PBXTargetDependency */,
-			);
-			name = "HTTPFormRequest-macOSTests";
-			productName = "HTTPFormRequest-macOSTests";
-			productReference = E8266B61208887E500B06B16 /* HTTPFormRequest.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E876ECCB2087AFCC00E7A845 /* HTTPFormRequest-Library */ = {
 			isa = PBXNativeTarget;
@@ -290,9 +238,6 @@
 					E8266B58208887E500B06B16 = {
 						CreatedOnToolsVersion = 9.4;
 					};
-					E8266B60208887E500B06B16 = {
-						CreatedOnToolsVersion = 9.4;
-					};
 					E876ECCB2087AFCC00E7A845 = {
 						CreatedOnToolsVersion = 9.4;
 					};
@@ -323,20 +268,12 @@
 				E876ECCB2087AFCC00E7A845 /* HTTPFormRequest-Library */,
 				E876ECD72087B3B500E7A845 /* HTTPFormRequest-Library-macOS */,
 				E8266B58208887E500B06B16 /* HTTPFormRequest-macOS */,
-				E8266B60208887E500B06B16 /* HTTPFormRequest-macOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E8266B57208887E500B06B16 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8266B5F208887E500B06B16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,14 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8266BC82088D7CB00B06B16 /* HTTPFormRequest.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8266B5D208887E500B06B16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8266B67208887E500B06B16 /* HTTPFormRequest_macOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,14 +323,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E8266B64208887E500B06B16 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E8266B58208887E500B06B16 /* HTTPFormRequest-macOS */;
-			targetProxy = E8266B63208887E500B06B16 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E8266B6B208887E500B06B16 /* Debug */ = {
@@ -463,58 +384,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lionheartapplications.HTTPFormRequest-macOS";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E8266B6E208887E500B06B16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = PYQF8Y7S2V;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "HTTPFormRequest-macOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lionheartapplications.HTTPFormRequest-macOSTests";
-				PRODUCT_NAME = HTTPFormRequest;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		E8266B6F208887E500B06B16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = PYQF8Y7S2V;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "HTTPFormRequest-macOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lionheartapplications.HTTPFormRequest-macOSTests";
-				PRODUCT_NAME = HTTPFormRequest;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -779,15 +648,6 @@
 			buildConfigurations = (
 				E8266B6B208887E500B06B16 /* Debug */,
 				E8266B6C208887E500B06B16 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E8266B6D208887E500B06B16 /* Build configuration list for PBXNativeTarget "HTTPFormRequest-macOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8266B6E208887E500B06B16 /* Debug */,
-				E8266B6F208887E500B06B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

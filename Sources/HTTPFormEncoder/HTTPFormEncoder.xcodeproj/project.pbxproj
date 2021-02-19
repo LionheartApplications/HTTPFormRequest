@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E47B2EC25E01C46008467D5 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E47B2EA25E01C46008467D5 /* Structures.swift */; };
+		5E47B2ED25E01C46008467D5 /* HTTPFormEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E47B2EB25E01C46008467D5 /* HTTPFormEncoderTests.swift */; };
 		E844A91A20F49C6B00D0B386 /* HTTPFormEncoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E844A91120F49C6B00D0B386 /* HTTPFormEncoder.framework */; };
-		E844A91F20F49C6B00D0B386 /* HTTPFormEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E844A91E20F49C6B00D0B386 /* HTTPFormEncoderTests.swift */; };
 		E844A92120F49C6B00D0B386 /* HTTPFormEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = E844A91320F49C6B00D0B386 /* HTTPFormEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E844A92820F49C8700D0B386 /* HTTPFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E844A8ED20F497DF00D0B386 /* HTTPFormEncoder.swift */; };
 		E844A92920F49C8700D0B386 /* HTTPFormKeyedEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E844A8F720F4997000D0B386 /* HTTPFormKeyedEncodingContainer.swift */; };
 		E844A92A20F49C8700D0B386 /* HTTPFormUnkeyedEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E844A8F920F499C400D0B386 /* HTTPFormUnkeyedEncodingContainer.swift */; };
-		E844A92B20F49CAA00D0B386 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E844A90A20F49B1100D0B386 /* Structures.swift */; };
 		E8D928B220FF43E40066DF98 /* HTTPFormSingleValueEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D928B120FF43E40066DF98 /* HTTPFormSingleValueEncodingContainer.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,15 +28,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E47B2EA25E01C46008467D5 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Structures.swift; path = ../../../Tests/HTTPFormEncoderTests/Structures.swift; sourceTree = "<group>"; };
+		5E47B2EB25E01C46008467D5 /* HTTPFormEncoderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPFormEncoderTests.swift; path = ../../../Tests/HTTPFormEncoderTests/HTTPFormEncoderTests.swift; sourceTree = "<group>"; };
 		E844A8ED20F497DF00D0B386 /* HTTPFormEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFormEncoder.swift; sourceTree = "<group>"; };
 		E844A8F720F4997000D0B386 /* HTTPFormKeyedEncodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFormKeyedEncodingContainer.swift; sourceTree = "<group>"; };
 		E844A8F920F499C400D0B386 /* HTTPFormUnkeyedEncodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFormUnkeyedEncodingContainer.swift; sourceTree = "<group>"; };
-		E844A90A20F49B1100D0B386 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		E844A91120F49C6B00D0B386 /* HTTPFormEncoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTTPFormEncoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E844A91320F49C6B00D0B386 /* HTTPFormEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPFormEncoder.h; sourceTree = "<group>"; };
 		E844A91420F49C6B00D0B386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E844A91920F49C6B00D0B386 /* HTTPFormEncoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTPFormEncoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E844A91E20F49C6B00D0B386 /* HTTPFormEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFormEncoderTests.swift; sourceTree = "<group>"; };
 		E844A92020F49C6B00D0B386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8D928B120FF43E40066DF98 /* HTTPFormSingleValueEncodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFormSingleValueEncodingContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,8 +94,8 @@
 		E844A91D20F49C6B00D0B386 /* HTTPFormEncoderTests */ = {
 			isa = PBXGroup;
 			children = (
-				E844A90A20F49B1100D0B386 /* Structures.swift */,
-				E844A91E20F49C6B00D0B386 /* HTTPFormEncoderTests.swift */,
+				5E47B2EB25E01C46008467D5 /* HTTPFormEncoderTests.swift */,
+				5E47B2EA25E01C46008467D5 /* Structures.swift */,
 				E844A92020F49C6B00D0B386 /* Info.plist */,
 			);
 			path = HTTPFormEncoderTests;
@@ -167,6 +167,7 @@
 					};
 					E844A91820F49C6B00D0B386 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -222,8 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E844A91F20F49C6B00D0B386 /* HTTPFormEncoderTests.swift in Sources */,
-				E844A92B20F49CAA00D0B386 /* Structures.swift in Sources */,
+				5E47B2ED25E01C46008467D5 /* HTTPFormEncoderTests.swift in Sources */,
+				5E47B2EC25E01C46008467D5 /* Structures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYQF8Y7S2V;
 				INFOPLIST_FILE = HTTPFormEncoderTests/Info.plist;
@@ -432,6 +434,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lionheartapplications.HTTPFormEncoderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYQF8Y7S2V;
 				INFOPLIST_FILE = HTTPFormEncoderTests/Info.plist;
